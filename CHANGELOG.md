@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/dskart/nvim-claudehalp/compare/v1.0.0...v1.0.1) (2026-04-03)
+
+
+### Bug Fixes
+
+* license ([ef3b69f](https://github.com/dskart/nvim-claudehalp/commit/ef3b69f037f63ef8c603e11346edbca7d4071ab7))
+
 ## 1.0.0 (2026-04-03)
 
 
