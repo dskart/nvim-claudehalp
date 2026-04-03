@@ -15,14 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install selene
-        run: |
-          curl -sL "https://github.com/Kampfkarren/selene/releases/latest/download/selene-linux.zip" -o selene.zip
-          unzip selene.zip -d ~/.local/bin
-          chmod +x ~/.local/bin/selene
-
-      - name: Lint
-        run: make lint
+      - uses: AlejandroSuero/selene-linter-action@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          args: lua/ plugin/
 
   stylua:
     name: stylua
