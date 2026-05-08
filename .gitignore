@@ -1,0 +1,2 @@
+# Re-include project-local Neovim config (globally ignored in ~/.gitignore).
+!.nvim.lua
